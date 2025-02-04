@@ -33,11 +33,5 @@ public class butterfly {
             }
             System.out.print("\n");
         }
-
-
-
-
-
-
     }
 }
