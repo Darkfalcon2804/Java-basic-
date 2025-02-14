@@ -1,7 +1,7 @@
 //What is hamming weight=Given a positive integer n, write a function that returns the number of
 //set bits
 // in its binary representation (also known as the Hamming weight). ex=11 binaryn 1011 output 3
-// Making wuestion interesting by showing decimal to binary in same so
+// Making question more interesting by showing decimal to binary in same so
 
 
 package Functions;
