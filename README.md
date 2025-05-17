@@ -26,5 +26,6 @@ To run any of the programs:
    git clone https://github.com/Darkfalcon2804/Java-basic-.git
    cd Java-basic-
 2. **CMD command for java:**
+   ```bash
     javac filename.java //Compile
     java filename.java //Running   
