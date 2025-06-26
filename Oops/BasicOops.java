@@ -19,6 +19,10 @@ class Student{
     Student(){
         System.out.println("Constructor is Called"); //If we dont write any non parametersied constructor in class then java makes its own constructor  to exxecute the program
     }
+    Student(Student s4){
+        this.name=s4.name;
+                this.age=s4.age;
+    }
 }
 class Student2{
     String name;
@@ -53,7 +57,17 @@ public class BasicOops {
         s1.printInfo();
         Student2 s2=new Student2("dark",19);
         s2.info();
+        //Copy Constructor
+        Student s3=new Student();
+        s3.name="falcon";
+        s3.age=21;
+        s3.printInfo();
+    Student s4=new Student(s3);
+    s4.printInfo();
     }
 }
 //in any situation when object is created then constructor is called first
 //IN c++ copy consturctor can be constructed by deafult someties but in java here copy constructed by user only
+//In c++ we can create destructor but in java desturctor is not created it is automatic and in java there is garbage collector
+//The garbage collector is part of jvm(java virtual machine) and there destructor in java
+//In java  one class is named inside the package only one time like student class can only be present only one time in  package
