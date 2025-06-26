@@ -13,7 +13,7 @@ The repository is organized into the following directories:
 - **Sortings/**: Implements basic sorting algorithms like Bubble Sort, Selection Sort, and Insertion Sort.
 - **Strings/**: Covers string manipulations, including concatenation, substring extraction, and character operations.
 - **PatternPrinting/**: Features programs that print various patterns using loops, such as pyramids and triangles.
-- **Recursion/**: Illustrates recursive approaches to problems like factorial calculation and Fibonacci series.:contentReference[oaicite:16]{index=16}
+- **Recursion/**: Illustrates recursive approaches to problems like factorial calculation and Fibonacci series.
 
 Each directory contains `.java` files that are self-contained and focus on specific topics or problems.
 
