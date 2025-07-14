@@ -1,7 +1,6 @@
 //Inheritance is one of the core concepts of Object-Oriented Programming (OOP).
 //It allows a child class (subclass) to inherit fields (variables) and methods (functions) from a parent class (base class) (superclass).
 package Oops;
-//import Bank;
 class Shape{
     String color;
     public void area(){
@@ -28,8 +27,7 @@ public class Inheritance {
     Triangle t1=new Triangle();
     t1.color="red";
     t1.area(5,4);
-    Bank.Account account1=new Bank.Account();
-    account1.name="dark";
+
 
     }
 }
