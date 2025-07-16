@@ -4,7 +4,7 @@ import java.util.Collections;
 
 public class BasicsArrayList {
     public static void main(String[] args){
-        ArrayList<Integer>list=new ArrayList<Integer>(); //this is the syntax to declare array list there some more let see
+        ArrayList<Integer>list=new ArrayList<>(); //this is the syntax to declare array list there some more let see
 //        ArrayList<String>list2=new ArrayList<String>();
 //        ArrayList<Boolean>list3=new ArrayList<Boolean>();
         //add element
